@@ -1,0 +1,116 @@
+body {
+  background-image: linear-gradient(to right, #2ca3ff, #0027d1, #010c3c);
+  color: white;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  color: #1a1a1a;
+  box-shadow: 8px 8px 10px rgb(10, 0, 102);
+  border: 0.5px solid rgb(10, 0, 102);
+  width: 600px;
+  justify-self: center;
+}
+
+.todo-container {
+  width: 500px;
+  justify-self: center;
+  font-size: x-large;
+}
+
+.todo-input-area {
+  background-color: #0027d1;
+  justify-self: center;
+  width: 500px;
+  padding: 50px;
+  border-radius: 30px;
+  border: 3px solid #010c3c;
+  box-shadow: 8px 8px 10px rgb(10, 0, 102);
+  font-size: x-large;
+}
+
+ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-self: center;
+  padding: 10px;
+  margin: 4px;
+}
+
+li {
+  padding: 10px;
+  margin: 4px;
+  background-color: #2ca3ff;
+  height: fit-content;
+  width: 500px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px rgb(10, 0, 102);
+  border: 0.5px solid black;
+  column-gap: 10px;
+  justify-self: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+li:hover {
+  background-color: #008efa;
+}
+
+input {
+  justify-self: center;
+  width: 475px;
+  padding: 12.5px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+
+button {
+  padding: 10px;
+  width: 125px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.add-task-btn:hover {
+  background-color: lightblue;
+}
+
+.clear-tasks-btn:hover {
+  background-color: lightblue;
+}
+
+.delete-btn {
+  display: flex;
+  justify-self: right;
+  align-self: center;
+  background-color: rgb(72, 0, 255);
+  color: white;
+  width: 80px;
+}
+
+.delete-btn:hover {
+  background-color: rgb(44, 0, 157);
+}
+
+.input-btn {
+  margin-top: 20px;
+  padding-top: 10px;
+  justify-self: center;
+  font-size: large;
+}
+
+.add-task-btn {
+  font-size: large;
+}
